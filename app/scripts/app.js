@@ -34,7 +34,7 @@ async function processUserMessage(message) {
   // Add your logic to process the user message and generate a response
   // You can use FDK request method if needed
 
-  // Example response
+  // Example respons
   return "This is an example response";
 }
 
