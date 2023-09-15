@@ -1,0 +1,25 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Conversational App</title>
+  <script type="module" src="https://cdn.jsdelivr.net/npm/@freshworks/crayons@v4/dist/crayons/crayons.esm.js"></script>
+  <script nomodule src="https://cdn.jsdelivr.net/npm/@freshworks/crayons@v4/dist/crayons/crayons.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@freshworks/crayons@v4/css/crayons-min.css" />
+</head>
+<body>
+  <div class="fw-container"> <!-- Conversational app container -->
+    <div class="fw-flex fw-flex-column"> <!-- Conversation messages container -->
+      <!-- Add conversation messages here -->
+    </div>
+    <div class="fw-flex fw-flex-row"> <!-- User message input and send button container -->
+      <fw-input type="text" label="Message" placeholder="Type your message here"></fw-input> <!-- User message input field -->
+      <fw-button color="primary">Send</fw-button> <!-- Send button -->
+    </div>
+  </div>
+  <script src="scripts/app.js"></script>
+<script async src="https://static.freshdev.io/fdk/2.0/assets/fresh_client.js"></script>
+</body>
+</html>
